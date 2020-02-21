@@ -1,0 +1,51 @@
+$orange:#F05A28;
+$gray: #938484;
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap');
+
+@import "../libs/bootstrap/scss/bootstrap.scss";
+@import "header.scss";
+@import "filter.scss";
+@import "content.scss";
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #E5E5E5;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+ul{
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.container-fluid{
+    padding-left: 36px !important;
+    padding-right: 36px !important;
+}
+.scroll{
+    overflow-y: scroll;
+&::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  &::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+}

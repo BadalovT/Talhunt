@@ -1,0 +1,52 @@
+.header {
+    background-color: #fff;
+    .logo {
+        padding: 4px;
+    }
+
+    .menu {
+        height: 100%;
+        justify-content: space-evenly;
+
+        .menu-item {
+            text-decoration: none;
+
+            img {
+                width: 25px;
+            }
+
+            span {
+                margin-left: 10px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                font-feature-settings: 'salt'on, 'liga'off;
+                color: #626262;
+            }
+        }
+
+    }
+
+    .profile {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        img {
+            border-radius: 100%;
+            margin-right: 12px;
+        }
+
+        span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: right;
+            font-feature-settings: 'salt'on, 'liga'off;
+            color: #626262;
+        }
+    }
+}
